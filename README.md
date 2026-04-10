@@ -3,14 +3,7 @@
 
 Modding geometrydash.com to add more features
 
-
-## Extra Stuff We Added:
-  * More gamemodes (Wave, Ball)
-  * portals and objects, orbs and pads
-  * All main levels
-  * loading optimization
-  * Custom icons (can only be edited programatically)
-  * probably more
+this is a fork of webdashers btw
 <a href="https://discord.gg/h6xYNUBFnq" target="_blank">
   <img width="279" height="89" alt="JoinTheDiscord" src="https://github.com/user-attachments/assets/285a9de1-e72a-491a-9dd4-3d31887e73b2" />
 </a>
