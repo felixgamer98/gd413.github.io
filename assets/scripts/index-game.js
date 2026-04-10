@@ -1,14 +1,14 @@
 // editable config stuff 
 
 if (window.mainColor == null) {
-  window.mainColor = parseInt("fb2651", 16);
+  window.mainColor = parseInt("007dff", 16);
 }
 if (window.secondaryColor == null) {
-  window.secondaryColor = parseInt("ffffff", 16);
+  window.secondaryColor = parseInt("00ffff", 16);
 }
-window.currentPlayer = "player_42";
-window.currentShip = "ship_44";
-window.currentBall = "player_ball_23"
+window.currentPlayer = "player_16";
+window.currentShip = "ship_17";
+window.currentBall = "player_ball_05"
 window.currentWave = "dart_01"
 window.currentlevel = [
 	"stereo_madness", // internal level name
@@ -202,8 +202,8 @@ preload() {
     this.load.text("level_1", "assets/levels/1.txt");
     this.load.audio("stereo_madness", "assets/music/StereoMadness.mp3");
  
-    this.load.text("level_2", "assets/levels/2.txt");
-    this.load.audio("back_on_track", "assets/music/BackOnTrack.mp3");
+    this.load.text("level_2", "assets/levels/100.txt");
+    this.load.audio("back_on_track", "assets/music/Bloodbath.mp3");
  
     this.load.text("level_3", "assets/levels/3.txt");
     this.load.audio("polargeist", "assets/music/Polargeist.mp3");
@@ -4236,7 +4236,7 @@ class xs extends Phaser.Scene {
       this._downloadBtns.push(_0x1d293f);
     }
     const _0x28fa5b = this.scale.isFullscreen;
-    this._menuFsBtn = this.add.image(33, 33, "GJ_WebSheet", _0x28fa5b ? "toggleFullscreenOff_001.png" : "toggleFullscreenOn_001.png").setScrollFactor(0).setDepth(30).setScale(0.64).setAlpha(0.8).setTint(Phaser.Display.Color.GetColor(255, 255, 255)).setInteractive();
+    this._menuFsBtn = this.add.image(33, 33, "GJ_WebSheet", _0x28fa5b ? "toggleFullscreenOff_001.png" : "toggleFullscreenOn_001.png").setScrollFactor(0).setDepth(30).setScale(0.64).setAlpha(0.8).setTint(Phaser.Display.Color.GetColor(0, Math.round(102), 255)).setInteractive();
     this._expandHitArea(this._menuFsBtn, 1.5);
     this._makeBouncyButton(this._menuFsBtn, 0.64, () => {
       const _0x26b7c = !this.scale.isFullscreen;
